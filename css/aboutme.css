@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 10px;
+    background-color: rgb(57, 57, 90);
+    border-style: ridge;
+    border: #8485b3 solid 5px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    width: 100%;
+    box-sizing: border-box;
+}
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+nav a {
+    text-decoration: none;
+    color: #e7daf5;
+    background-color: #57598b;
+    padding: 10px;
+    margin: 2%;
+    border: #57598b solid 3px;
+    width: 150px;
+    border-radius: 10px;
+    font-size: large;
+    font-weight: bold;
+    transition: transform 0.2 ease;
+}
+nav a:hover {
+    transform: translateX(5px) translateY(5px);
+}
+#heading-name {
+    color: #c9badd;
+    padding: 10px;
+    width: 18%;
+    border-radius: 5%;
+    margin-left: 2%;
+}
+body {
+    background-color: rgb(231, 235, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#maincontent {
+    width: 1000px;
+    background-color: #cdbdfa;
+    color: rgb(57, 58, 79);
+    border: #8485b3 solid 3px;
+    border-top: none;
+    border-bottom: none;
+    padding-top: 5%;
+    padding-bottom: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h2 {
+    border: #8485b3 solid 5px;
+    background-color: rgb(57, 57, 90);
+    width: 150px;
+    height: 30px;
+    color: #c9badd;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+body p {
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    padding-left: 3%;
+    font-size: x-large;
+    width: 50%;
+
+}
+body h2{
+    display: flex;
+    padding: 1%;
+}
+footer {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 10px;
+    background-color: rgb(57, 57, 90);
+    border-style: ridge;
+    border: #8485b3 solid 5px;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    color: #c9badd;
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+    bottom: 0;
+}
+#img-container1 {
+    height: 300px;
+    margin: 3%;
+    width: 300px;
+}
+.img-container2 {
+    display: flex;
+    width: 300px;
+    margin: 3%;
+}
+img {
+    border:#8485b3 solid 5px;
+}
